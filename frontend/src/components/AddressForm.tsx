@@ -198,10 +198,13 @@ export default function AddressForm({ initialData, onSubmit, onBack, title }: Ad
                 borderRadius: "8px"
               }}
             >
+
               <TileLayer
-                attribution="&copy; OpenStreetMap contributors"
-                url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                maxZoom={19}
               />
+
 
               <Marker position={position} />
 
