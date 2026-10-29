@@ -12,7 +12,6 @@ dist
 dist-ssr
 *.local
 
-package.json
 pnpm-log.yaml
 pnpm-workspace.yaml
 
